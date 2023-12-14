@@ -1,18 +1,16 @@
 <template>
-  <div>
-    <myNavBar />
-    <router-view></router-view>
-  </div>
+  <NavBar />
+  <router-view></router-view>
 </template>
 
 <script>
-import myNavBar from './components/NavBar.vue'
+import NavBar from './components/NavBar.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap"
 
 export default {
   components: {
-    myNavBar
+    NavBar
   },
   setup() {
   }
